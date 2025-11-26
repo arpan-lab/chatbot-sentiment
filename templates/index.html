@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Chatbot — Sentiment Demo</title>
+<style>
+body { font-family: Arial, Helvetica, sans-serif; margin: 2rem; }
+#chat { border: 1px solid #ddd; padding: 1rem; height: 60vh; overflow:auto }
+.user { text-align: right; }
+.bot { text-align: left; }
+.meta { font-size: 0.8rem; color: #666 }
+</style>
+</head>
+<body>
+<h2>Chatbot with Sentiment Analysis</h2>
+<div id="chat"></div>
+<form id="form">
+<input id="text" autocomplete="off" style="width:70%" />
+<button type="submit">Send</button>
+<button type="button" id="clear">Clear</button>
+</form>
+<script src="/static/main.js"></script>
+</body>
+</html>
